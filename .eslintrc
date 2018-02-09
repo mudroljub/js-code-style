@@ -36,7 +36,6 @@
       "no-duplicate-imports": "error",
       "no-var": "error",
       "object-shorthand": "error",
-      "no-invalid-this": "error",
       "no-unexpected-multiline": "error",
       "semi": ["warn", "never"],
       "quotes": ["warn", "single"],
