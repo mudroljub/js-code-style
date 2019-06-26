@@ -44,6 +44,7 @@
     "space-infix-ops": "warn",
     "comma-spacing": ["warn", { "before": false, "after": true }],
     "spaced-comment": ["warn", "always"],
+    "no-return-assign": ["warn", "always"],
     "new-cap": ["warn", {
       "capIsNewExceptions": ["mongodb.ObjectID"]
     }]
