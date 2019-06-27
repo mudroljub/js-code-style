@@ -5,7 +5,7 @@
     "es6": true
   },
   "globals": {
-    "google": false,
+    "L": false,
     "THREE": false
   },
   "rules": {
@@ -45,8 +45,9 @@
     "comma-spacing": ["warn", { "before": false, "after": true }],
     "spaced-comment": ["warn", "always"],
     "no-return-assign": ["warn", "always"],
+    "no-cond-assign": "error",
     "new-cap": ["warn", {
-      "capIsNewExceptions": ["mongodb.ObjectID"]
+      "capIsNewExceptions": ["mongodb.ObjectID", "express.Router"]
     }]
   },
   "parserOptions": {
