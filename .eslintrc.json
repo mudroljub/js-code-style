@@ -1,12 +1,8 @@
 {
-  "extends": "react-app",
   "env": {
     "browser": true,
     "node": true,
     "es6": true
-  },
-  "globals": {
-    "THREE": false
   },
   "rules": {
     "arrow-body-style": ["error", "as-needed"],
@@ -38,18 +34,18 @@
     "no-undef": "error",
     "no-unexpected-multiline": "error",
     "no-unreachable": "error",
-    "no-unused-vars": ["warn", { "args": "after-used" }],
+    "no-unused-vars": ["error", { "args": "all" }],
     "no-use-before-define": ["error", { "functions": false }],
     "no-useless-constructor": "error",
     "no-useless-rename": "error",
     "no-var": "error",
+    "object-curly-spacing": ["warn", "always"],
     "object-shorthand": "error",
     "operator-assignment": ["error", "always"],
     "prefer-arrow-callback": "warn",
     "prefer-const": "warn",
     "prefer-destructuring": ["warn", {"object": true, "array": false}],
     "prefer-spread": "error",
-    "quote-props": ["warn", "as-needed"],
     "quotes": ["warn", "single"],
     "semi": ["warn", "never"],
     "space-before-blocks": "warn",
