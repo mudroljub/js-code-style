@@ -1,6 +1,6 @@
-# JavaScript semicolon-less Code Style
+# JavaScript Code Style (no semicolons)
 
-My personal JS coding style, which I have been using and updating regularly since 2017.
+My personal semicolon-less JS coding style, which I have been using and updating regularly since 2017.
 
 To try it out, just download the [ESLint config file](.eslintrc.json).
 
