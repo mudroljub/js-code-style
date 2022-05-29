@@ -1,7 +1,7 @@
-# Kodni standard
+# JavaScript semicolon-less Code Style
 
-Moj kodni standard za Javascript bez tački-zareza, koji usavršavam od 2017. godine.
+My personal JS coding style without semicolons, which I have been using and updating regularly since 2017.
 
-Da bi ga isprobali, dovoljno je preuzeti [fajl sa podešavanjima za ESlint](.eslintrc.json). 
+To try it out, just download the [ESLint config file](.eslintrc.json).
 
-Na [sajtu](https://eslint.org/docs/rules/) ovog lintera možete videti šta koje pravilo znači i kako se podešava.
+Visit [ESLint website](https://eslint.org/docs/rules/) to see what the rule means and how to set it up.
