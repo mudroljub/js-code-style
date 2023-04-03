@@ -17,6 +17,7 @@
     "constructor-super": "error",
     "curly": ["warn", "multi"],
     "dot-notation": "warn",
+    "getter-return": "error",
     "indent": ["warn", 2, { "SwitchCase": 1 }],
     "key-spacing": ["warn", { "afterColon": true }],
     "keyword-spacing": "warn",
@@ -64,10 +65,7 @@
     "space-infix-ops": "warn",
     "spaced-comment": ["warn", "always"],
     "vars-on-top": "error",
-    "yoda": "error",
-    "new-cap": ["warn", {
-      "capIsNewExceptions": ["mongodb.ObjectID", "express.Router"]
-    }]
+    "yoda": ["error", "never", { "exceptRange": true }]
   },
   "parserOptions": {
     "ecmaVersion": "latest",
